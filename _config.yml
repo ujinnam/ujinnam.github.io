@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yujin Nam
-title: Ph.D. student at UCSD
+title: Ph.D. Candidate in Computer Science, UC San Diego
 email: yujinnam@ucsd.edu
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -36,11 +36,14 @@ darkmode: false
 # Additional icon links
 additional_links:
 - title: resume/CV
-  icon: far fa-file #Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url:  https://ujinnam.github.io/resume/ #Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+  icon: far fa-file
+  url: https://ujinnam.github.io/resume/
+- title: LinkedIn
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/yujin-nam-ab1441214
+- title: Google Scholar
+  icon: fas fa-graduation-cap
+  url: https://scholar.google.com/citations?user=WvWqbRcAAAAJ&hl=en
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,115 +53,221 @@ additional_links:
 
 # About Section
 about_title: About Me # (Use this to override about section title)
-about_profile_image: images/profile.jpg #Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/IMG_2710.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
- I'm a Ph.D. student in the Computer Science and Engineering department at University of California, San Diego. I am currently working at System Energy Efficiency Lab ([SEE Lab](http://varys.ucsd.edu)) with professor Tajana Simunic Rosing. 
- 
- I am interested in privacy-preserving computation using fully homomorphic encryption.
+ I'm a Ph.D. candidate in the Computer Science and Engineering department at University of California, San Diego, working at the System Energy Efficiency Lab ([SEE Lab](http://varys.ucsd.edu)) with Professor Tajana Simunic Rosing.
+
+ My research focuses on building secure and privacy-preserving machine learning systems. I work on fully homomorphic encryption, secure ML inference and training, encrypted federated learning, private retrieval, hyperdimensional computing, and GPU/system optimization for encrypted computation.
+
+ I am currently looking for research scientist, research engineer, and ML/systems engineering roles in trustworthy AI and privacy-preserving infrastructure. Feel free to reach out at [yujinnam@ucsd.edu](mailto:yujinnam@ucsd.edu).
 
 experience_title: experience
 
 content:
 
-  - title: Paper # Title for the section
+  - title: Publications # Title for the section
     layout: paper # Type of content section (list/text)
     content:
-        
+
       - layout: right
-        title: Efficient machine learning on encrypted data using hyperdimensional computing 
-        sub_title: <strong>Nam, Y.</strong>, Zhou, M., Gupta, S., De Micheli, G., Cammarota, R., Wilkerson, C., Micciancio, D. and Rosing, T. 
-        caption: 2023 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)
-        link: https://ieeexplore.ieee.org/abstract/document/10244262
-        link_text: link
-        
+        title: "FHEmem: A Processing In-Memory Accelerator for Fully Homomorphic Encryption"
+        sub_title: Zhou, M., <strong>Nam, Y.</strong>, Gangwar, P., Xu, W., Dutta, A., Wilkerson, C., Cammarota, R., et al.
+        caption: IEEE Transactions on Emerging Topics in Computing, 2025
+        link: https://doi.org/10.1109/TETC.2025.3528862
+        link_text: DOI
+
         quote: >
 
-        description: | # this will include new lines to allow paragraphs
+        description: |
+
+      - layout: right
+        title: "Rhychee-FL: Robust and Efficient Hyperdimensional Federated Learning with Homomorphic Encryption"
+        sub_title: <strong>Nam, Y.</strong>, Moitra, A., Venkatesha, Y., Yu, X., De Micheli, G., Wang, X., Zhou, M., et al.
+        caption: 2025 Design, Automation & Test in Europe Conference (DATE)
+        link: https://doi.org/10.23919/DATE64628.2025.10992697
+        link_text: DOI
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: "PATHE: A Privacy-Preserving Database Pattern Search Platform with Homomorphic Encryption"
+        sub_title: Wang, X., Zhou, M., De Micheli, G., <strong>Nam, Y.</strong>, Pinge, S., Vega, A., Rosing, T.
+        caption: 2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD)
+        link: https://doi.org/10.1109/ICCAD66269.2025.11240997
+        link_text: DOI
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: "PATHE: A Privacy-Preserving Mass Spectrometry Database Pattern Search Platform with Fully Homomorphic Encryption"
+        sub_title: Wang, X., Zhou, M., <strong>Nam, Y.</strong>, De Micheli, G., Pinge, S., Vega, A., Rosing, T.
+        caption: 2025 ACM/IEEE Design Automation Conference (DAC)
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: "UFC: A Unified Accelerator for Fully Homomorphic Encryption"
+        sub_title: Zhou, M., <strong>Nam, Y.</strong>, Wang, X., Lee, Y., Wilkerson, C., Kumar, R., Taneja, S., et al.
+        caption: 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO)
+        link: https://doi.org/10.1109/MICRO61859.2024.00034
+        link_text: DOI
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: "GraSS: Graph-based Similarity Search on Encrypted Query"
+        sub_title: Kim, D., <strong>Nam, Y.</strong>, Wang, W., Gong, H., Bhati, I., Cammarota, R., Rosing, T.S., et al.
+        caption: Cryptology ePrint Archive, 2024
+        link: https://eprint.iacr.org/2024/2012
+        link_text: ePrint
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: "HEaaN-STAT: A Privacy-Preserving Statistical Analysis Toolkit for Large-Scale Numerical, Ordinal, and Categorical Data"
+        sub_title: Lee, Y., Seo, J., <strong>Nam, Y.</strong>, Chae, J., Cheon, J.H.
+        caption: IEEE Transactions on Dependable and Secure Computing (TDSC), 2024
+        link: https://doi.org/10.1109/TDSC.2023.3275649
+        link_text: DOI
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: "Efficient Host Intrusion Detection using Hyperdimensional Computing"
+        sub_title: <strong>Nam, Y.</strong>, King, R., Burke, Q., Zhou, M., McDaniel, P., Rosing, T.
+        caption: 2024 IEEE International Conference on Big Data – CyberHunt Workshop
+        link: https://doi.org/10.1109/BigData62323.2024.10825247
+        link_text: DOI
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: "MatHE: A Near-Mat Processing In-Memory Accelerator for Fully Homomorphic Encryption"
+        sub_title: Zhou, M., <strong>Nam, Y.</strong>, Gangwar, P., Xu, W., Dutta, A., Wilkerson, C., Cammarota, R., et al.
+        caption: 2024 ACM/IEEE Design Automation Conference (DAC)
+
+        quote: >
+
+        description: |
+
+      - layout: right
+        title: Efficient Machine Learning on Encrypted Data Using Hyperdimensional Computing
+        sub_title: <strong>Nam, Y.</strong>, Zhou, M., Gupta, S., De Micheli, G., Cammarota, R., Wilkerson, C., Micciancio, D., Rosing, T.
+        caption: 2023 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)
+        link: https://doi.org/10.1109/ISLPED58423.2023.10244262
+        link_text: DOI
+
+        quote: >
+
+        description: |
 
       - layout: right
         title: Hardware Architecture of a Number Theoretic Transform for a Bootstrappable RNS-based Homomorphic Encryption Scheme
-        sub_title: Kim, S., Lee, K., Cho, W., <strong>Nam, Y.</strong>, Cheon, J.H. and Rutenbar, R.A.
-        caption: 2020 IEEE 28th Annual International Symposium on FCCM
-        link: https://www.fccm.org/past/2020/proceedings/2020/pdfs/FCCM2020-65FOvhMqzyMYm99lfeVKyl/580300a056/580300a056.pdf
-        link_text: pdf
+        sub_title: Kim, S., Lee, K., Cho, W., <strong>Nam, Y.</strong>, Cheon, J.H., Rutenbar, R.A.
+        caption: 2020 IEEE 28th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+        link: https://doi.org/10.1109/FCCM48280.2020.00017
+        link_text: DOI
 
         quote: >
 
-        description: | # this will include new lines to allow paragraphs
-
-      #- layout: left
-      #  title: HEaaN.STAT; a privacy-preserving statistical analysis toolkit for large-scale numerical, ordinal, and categorical data
-      #  sub_title: Y. Lee, J. Seo*, Y. Nam*, S. Kim*, J. Chae, and J. H. Cheon (* equal contribution)
-      #  caption: pre-print
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #link_text: Link Text
-      #  additional_links:
-      #    - title: A news article about the project (in Korean)
-      #      icon: far fa-newspaper
-      #      url: https://www.mk.co.kr/news/it/view/2020/06/617674/
-
-      #  quote: >
-         
-      #  description: | # this will include new lines to allow paragraphs
+        description: |
                       
   - title: Education
     layout: list
     content:
       - layout: left
-        title: University of California, San Diego 
-        sub_title: Ph.D in Computer Science
+        title: University of California, San Diego
+        sub_title: "Ph.D in Computer Science; GPA: 3.9/4.0"
         image: images/ucsd_emblem.png
-        caption: 2021 - present      
-        
+        caption: 2021 - present
+
       - layout: left
         title: Seoul National University (SNU)
-        sub_title: B.S. in Electrical and Computer Engineering
+        sub_title: "B.S. in Electrical and Computer Engineering, Cum Laude; GPA: 3.80/4.30"
         image: images/Seoul_national_university_emblem.png
         caption: 2015 - 2020
   
-  - title: Work Experience
+  - title: Research and Engineering Experience
     layout: list
     content:
       - layout: left
-        title: Intel Labs
-        sub_title: Graduate Intern (Fully homomorphic encryption workload analysis)
-        image: images/Intel-Logo.png
-        caption: Jun 2023 - Sep 2023 #Date Range (eg. November 2016 - present)
-        #Link to company (optional)
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-
-      - layout: left
-        title: Intel
-        sub_title: Graduate Intern (Fully homomorphic encryption workload analysis)
-        image: images/Intel-Logo.png
-        caption: Jun 2022 - Sep 2022 #Date Range (eg. November 2016 - present)
+        title: UC San Diego, Yale, IBM
+        sub_title: Graduate Researcher – Privacy-Preserving Federated Learning
+        image: images/ucsd_emblem.png
+        caption: Jun 2023 – Sep 2024
 
         quote: >
 
         description: | # this will include new lines to allow paragraphs
+          Designed an FHE and hyperdimensional computing framework for privacy-preserving model aggregation. Built and evaluated a secure federated learning pipeline under communication, computation, and ciphertext-representation constraints. Analyzed CKKS parameters, ciphertext packing, and model representation trade-offs. Published at DATE 2025.
 
       - layout: left
-        title: Crypto Lab
-        sub_title: Researcher
+        title: Intel Labs / UC San Diego
+        sub_title: Graduate Research Intern – Private Similarity Search
+        image: images/Intel-Logo.png
+        caption: Jun 2023 – Sep 2023
+
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Designed a privacy-preserving retrieval system for graph-based search over encrypted queries. Developed encrypted graph operations for traversal, neighbor selection, set operations, and top-k retrieval. Built PET primitives including blind rotation, encrypted set intersection/union, and oblivious sorting.
+
+      - layout: left
+        title: UC San Diego
+        sub_title: Graduate Researcher – Encrypted Hyperdimensional Computing
+        image: images/ucsd_emblem.png
+        caption: Nov 2021 – Apr 2023
+
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Designed and evaluated FHE-based machine learning algorithms using hyperdimensional computing. Investigated CKKS parameters, ciphertext packing layouts, multiplicative depth, and SIMD-style batching for encrypted training and inference. Published at ISLPED 2023.
+
+      - layout: left
+        title: Intel Corp. / UC San Diego
+        sub_title: Graduate Research Intern – FHE Workload Acceleration
+        image: images/Intel-Logo.png
+        caption: Jun 2022 – Sep 2022
+
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Designed and implemented privacy-preserving ML workloads using fully homomorphic encryption. Analyzed ciphertext multiplication, rotation, key switching, and bootstrapping-related operations. Contributed to accelerator-oriented performance modeling for GPU-oriented FHE computation.
+
+      - layout: left
+        title: Crypto Lab Inc.
+        sub_title: Researcher – Privacy-Preserving Analytics and FHE Acceleration
         image: images/cl_logo.png
-        caption: Aug 2019 - Sep 2020 #Date Range (eg. November 2016 - present)
+        caption: Aug 2019 – Oct 2020
 
         quote: >
 
         description: | # this will include new lines to allow paragraphs
+          Developed a CKKS-based statistical analysis toolkit for privacy-preserving computation over numerical, ordinal, and categorical data. Designed ciphertext data layouts and packing strategies for efficient large-scale secure analytics. Contributed to NTT hardware accelerator design for RNS-based CKKS homomorphic encryption.
 
+
+  - title: Honors and Awards
+    layout: text
+    content: |
+      - National Scholarship for Science and Engineering, Korea Student Aid Foundation (fully funded), 2017 – 2019
+      - SNU Merit-Based Scholarship, Seoul National University, 2015 and 2016
 
   #- title: Photos
   #  layout: gallery
-
-  #- title: About Tory
-  #  layout: text
-  #  content_image: images/cute_tori.jpg
-  #  content: | # this will include new lines to allow paragraphs
-  #    This is my dog, Tory !<br/> 
-  #    If you want to see more pictures of Tory, visit her [instagram](https://www.instagram.com/baam__toriiii/). 
 
 
 
